@@ -1,19 +1,22 @@
 # MCYJ.github.io
-=============================
-Repo for the pages
-=============================
-PORTFOLIO
-1. STOP WATCH
-2. FIND A LAND MINE
-3. SVG TEST
-4. 7-SEGMENT
 
-=============================
-INTEREST
-1. WEB
- a. 3D/GRAVITY
- b. UI/UX
+=============================<br>
+Repo for the pages<br>
+=============================<br>
+PORTFOLIO<br>
+1. STOP WATCH<br>https://mcyj.github.io/Proj.stopwatch/index.html
+2. FIND A LAND MINE<br>
+3. SVG TEST<br>
+4. 7-SEGMENT<br>
+
+=============================<br>
+INTEREST<br>
+1. WEB<br>
+ a. 3D/GRAVITY<br>
+ b. UI/UX<br>
  
-2. ML
+2. ML<br>
 
-3. DATA ANALYSIS
+3. DATA ANALYSIS<br>
+
+=============================
