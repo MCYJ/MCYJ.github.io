@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            canvas {
+                text-align: center;
+            }
+        </style>
+        <title>
+            시계는 Watch
+        </title>
+    </head>
+    <body>
+        <div>
+            <h1 style="font-style: italic;">시계는 watch</h1>
+            <h2>sine cosine function을 활용한 시계구현 예제</h2>
+        </div>
+        <div>
+            <canvas id="myCanvas" width="500" height="500" >
+                Your browser does not support the HTML canvas tag.
+            </canvas>
+        </div>
+        <div>
+            sine function과 cosine function은 0º에서 각각 0과 1에서 시작하여 -1~1범위내에서 360º(=2PI)마다 주기를 반복함
+            <br>이러한 원리를 활용하여 deg를 매초마다 1씩 증가시키고, 증가된 deg를 moveTo() 함수의 x와 y parameter에 초침,분침,시침 길이를 곱하여 아날로그 시계를 구현하였음
+        </div>
+
+        <script>
+            // canvas 객체생성
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+
+            // 매초마다 count++
+            var count = 0;
+            
+            // 기준위치 설정 (canvas 정중앙)
+            ctx.translate(c.width/2,c.height/2);
+            
+            // 1초마다 countTime 함수 실행
+            setInterval(countTime, 1000);
+
+            // 시계생성과 관련된 함수 실행
+            function countTime(){
+                makeWatchFace();
+                makeWatchDot();
+                makeWatchOutline();
+                setSec(count);
+                setMin(count);
+                setHour(count);
+                count++;
+            }
+
+            // 시계중심 구현
+            function makeWatchDot(){
+                ctx.beginPath();
+                ctx.arc(0,0,5,0,360);
+                ctx.fillStyle = 'black';
+                ctx.fill();
+            }
+
+            // 시계의 face 구현
+            function makeWatchFace(){
+                ctx.beginPath();
+                ctx.arc(0,0,100,0,360);
+                ctx.fillStyle = 'white';
+                ctx.fill();
+            }
+
+            // 시계의 outline 구현
+            function makeWatchOutline(){
+                ctx.beginPath();
+                ctx.arc(0,0,110,0,360);
+                ctx.stroke();
+            }
+
+            // 시계의 초침움직임 구현
+            function setSec(count){
+                var pos = count*6;
+                ctx.beginPath();
+                ctx.lineWidth = 1;
+                ctx.moveTo(0,0);
+                ctx.lineTo(Math.sin(pos*Math.PI/180)*100, -Math.cos(pos*Math.PI/180)*100);
+                ctx.stroke();
+            }
+
+            // 시계의 분침움직임 구현
+            function setMin(count){
+                var pos = count/10;
+                ctx.beginPath();
+                ctx.lineWidth = 2;
+                ctx.moveTo(0,0);
+                ctx.lineTo(Math.sin(pos*Math.PI/180)*70, -Math.cos(pos*Math.PI/180)*70);
+                ctx.stroke();
+            }
+
+            // 시계의 시침움직임 구현
+            function setHour(count){
+                var pos = count/600;
+                ctx.beginPath();
+                ctx.lineWidth = 3;
+                ctx.moveTo(0,0);
+                ctx.lineTo(Math.sin(pos*Math.PI/180)*40, -Math.cos(pos*Math.PI/180)*40);
+                ctx.stroke();
+                ctx.lineWidth = 1;
+            }
+        </script>
+    </body>
+</html>
