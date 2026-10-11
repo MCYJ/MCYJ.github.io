@@ -8,8 +8,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-10-11T12:05:00Z",
+      "stageChangedAt": "2026-10-11T11:49:57Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -61,14 +61,14 @@
             "signedBuild": "complete"
           },
           "android": {
-            "implementation": "unknown",
-            "hostTest": "unknown",
+            "implementation": "complete",
+            "hostTest": "complete",
             "deviceTest": "unknown",
-            "signedBuild": "unknown"
+            "signedBuild": "complete"
           }
         },
         "submission": {
-          "ios": "unknown",
+          "ios": "pending",
           "android": "submitted"
         },
         "review": {
@@ -144,7 +144,7 @@
           }
         },
         "submission": {
-          "ios": "unknown",
+          "ios": "pending",
           "android": "pending"
         },
         "review": {
