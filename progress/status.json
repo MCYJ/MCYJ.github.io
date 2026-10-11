@@ -8,7 +8,7 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T13:02:41Z",
+      "checkedAt": "2026-10-11T15:53:16Z",
       "stageChangedAt": "2026-10-11T13:02:41Z",
       "initial": {
         "planning": "unknown",
@@ -84,7 +84,7 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T13:02:41Z",
+      "checkedAt": "2026-10-11T15:53:16Z",
       "stageChangedAt": "2026-10-11T12:23:00Z",
       "initial": {
         "planning": "unknown",
@@ -689,7 +689,7 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T14:59:40Z",
+      "checkedAt": "2026-10-11T15:58:51Z",
       "stageChangedAt": "2026-10-11T14:37:57Z",
       "initial": {
         "planning": "unknown",
@@ -765,8 +765,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T14:59:40Z",
-      "stageChangedAt": "2026-10-11T14:53:55Z",
+      "checkedAt": "2026-10-11T15:58:51Z",
+      "stageChangedAt": "2026-10-11T15:22:19Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -820,7 +820,7 @@
           "android": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "blocked",
+            "deviceTest": "pending",
             "signedBuild": "unknown"
           }
         },
@@ -841,7 +841,7 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T14:45:41Z",
+      "checkedAt": "2026-10-11T15:58:51Z",
       "stageChangedAt": "2026-10-11T14:45:34Z",
       "initial": {
         "planning": "progress",
