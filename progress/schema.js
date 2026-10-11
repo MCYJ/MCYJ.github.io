@@ -1,5 +1,10 @@
 export const missions = ['신규 시험앱','기존 시험앱 개선','Drawly/Joyo','반도체 앱','단어장 플랫폼','유료 Pro 파일럿'];
 export const labels = {unknown:'미확인',pending:'미착수',progress:'진행 중',complete:'완료',blocked:'보류',na:'해당 없음',submitted:'제출 완료',reviewing:'심사 중',approved:'승인',rejected:'수정 필요',released:'출시됨'};
+export function statusLabel(status,stage) {
+  if (status==='pending' && stage==='submission') return '제출 전';
+  if (status==='pending' && stage==='review') return '심사 대기';
+  return labels[status];
+}
 const common = ['unknown','pending','progress','complete','blocked','na'];
 const exact = (value,keys) => value && typeof value === 'object' && !Array.isArray(value) && Object.keys(value).sort().join('|') === [...keys].sort().join('|');
 const statuses = (value,keys,allowed) => exact(value,keys) && keys.every(k => allowed.includes(value[k]));
