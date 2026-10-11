@@ -12,15 +12,15 @@
 <body>
   <a class="skip" href="#results">진행현황으로 건너뛰기</a>
   <main>
-    <header><p class="eyebrow">APP PORTFOLIO</p><h1>앱의 다음 단계를<br>한눈에.</h1><p class="intro">다섯 미션과 유료 Pro 파일럿의 진행현황입니다.<br>확인된 단계만 표시하며, 미확인은 완료를 뜻하지 않습니다.</p></header>
+    <header><p class="eyebrow">APP PORTFOLIO</p><h1>앱 진행현황</h1></header>
     <section class="toolbar" aria-label="보기 및 필터">
-      <div class="top-controls"><fieldset><legend>보기</legend><div class="segmented"><button type="button" id="table-button" aria-pressed="true">표</button><button type="button" id="board-button" aria-pressed="false">칸반</button></div></fieldset><label>작업 구분<select id="cycle"><option value="initial">초기 출시</option><option value="update">현재 업데이트</option></select></label></div>
-      <div class="filters"><label class="search">앱 검색<input id="search" type="search" placeholder="앱 이름으로 검색" autocomplete="off"></label><label>미션<select id="mission"><option value="all">모든 미션</option></select></label><label>플랫폼<select id="platform"><option value="all">모든 플랫폼</option><option value="ios">iOS</option><option value="android">Android</option></select></label><button type="button" id="reset">필터 초기화</button></div>
+      <div class="top-controls"><fieldset><legend>보기</legend><div class="segmented"><button type="button" id="table-button" aria-pressed="true">표</button><button type="button" id="board-button" aria-pressed="false">칸반</button></div></fieldset><label>작업 구분<select id="cycle"><option value="initial">초기 출시</option><option value="update">현재 개선판</option></select></label></div>
+      <div class="filters"><label class="search">앱 검색<input id="search" type="search" placeholder="앱 이름으로 검색" autocomplete="off"></label><label>미션<select id="mission"><option value="all">모든 미션</option></select></label><label>플랫폼<select id="platform"><option value="all">모든 플랫폼</option><option value="ios">iOS</option><option value="android">Android</option></select></label><button type="button" id="reset" aria-label="필터 초기화">필터 초기화</button></div>
     </section>
     <div class="result-heading"><h2 id="cycle-heading">초기 출시</h2><p id="count" role="status" aria-live="polite"></p></div>
-    <p class="hint" id="view-hint">개발 칸을 펼치면 구현과 테스트, 서명 빌드를 확인할 수 있습니다.</p>
-    <section id="results" tabindex="-1" aria-label="앱 진행현황" aria-describedby="view-hint"></section>
-    <footer>날짜는 한국 시간(Asia/Seoul) 기준입니다. 마지막 확인 후 7일이 지난 자료에는 ‘오래된 자료’를 표시합니다. 화면의 상태는 자동 실행 현황이 아닌 마지막 확인 기록입니다.</footer>
+    <details class="legend"><summary role="button" aria-label="상태 기호 범례" aria-expanded="false">기호</summary><div id="legend-items"></div><p>i · iOS　a · Android　≋ · 세부 상태</p></details>
+    <section id="results" tabindex="-1" aria-label="앱 진행현황"></section>
+
   </main>
 </body>
 </html>
