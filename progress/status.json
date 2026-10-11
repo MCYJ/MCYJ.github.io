@@ -8,8 +8,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T12:05:00Z",
-      "stageChangedAt": "2026-10-11T11:49:57Z",
+      "checkedAt": "2026-10-11T12:23:00Z",
+      "stageChangedAt": "2026-10-11T12:19:00Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -68,11 +68,11 @@
           }
         },
         "submission": {
-          "ios": "pending",
+          "ios": "submitted",
           "android": "submitted"
         },
         "review": {
-          "ios": "unknown",
+          "ios": "pending",
           "android": "reviewing"
         }
       }
@@ -84,8 +84,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-10-11T12:23:00Z",
+      "stageChangedAt": "2026-10-11T12:23:00Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -144,11 +144,11 @@
           }
         },
         "submission": {
-          "ios": "pending",
+          "ios": "submitted",
           "android": "pending"
         },
         "review": {
-          "ios": "unknown",
+          "ios": "pending",
           "android": "unknown"
         }
       }
@@ -839,16 +839,16 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-10-11T12:13:00Z",
+      "stageChangedAt": "2026-10-11T12:13:00Z",
       "initial": {
         "planning": "progress",
         "acquisition": "unknown",
         "validation": "unknown",
         "development": {
           "shared": {
-            "implementation": "pending",
-            "hostTest": "pending",
+            "implementation": "progress",
+            "hostTest": "progress",
             "deviceTest": "pending",
             "signedBuild": "pending"
           },
