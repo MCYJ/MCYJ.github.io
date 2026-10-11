@@ -8,8 +8,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T12:23:00Z",
-      "stageChangedAt": "2026-10-11T12:19:00Z",
+      "checkedAt": "2026-10-11T13:02:41Z",
+      "stageChangedAt": "2026-10-11T13:02:41Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -73,7 +73,7 @@
         },
         "review": {
           "ios": "pending",
-          "android": "reviewing"
+          "android": "released"
         }
       }
     },
@@ -84,7 +84,7 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T12:23:00Z",
+      "checkedAt": "2026-10-11T13:02:41Z",
       "stageChangedAt": "2026-10-11T12:23:00Z",
       "initial": {
         "planning": "unknown",
