@@ -1,0 +1,912 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "name": "전기기사",
+      "mission": "기존 시험앱 개선",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "released",
+          "android": "unknown"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "complete",
+            "hostTest": "complete",
+            "deviceTest": "unknown",
+            "signedBuild": "complete"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "submitted"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "reviewing"
+        }
+      }
+    },
+    {
+      "name": "투자자산운용사",
+      "mission": "기존 시험앱 개선",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "released",
+          "android": "unknown"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "complete",
+            "hostTest": "complete",
+            "deviceTest": "unknown",
+            "signedBuild": "complete"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "blocked"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "pending"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      }
+    },
+    {
+      "name": "UK Driver CPC",
+      "mission": "신규 시험앱",
+      "platforms": [
+        "ios"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "na"
+        },
+        "review": {
+          "ios": "rejected",
+          "android": "na"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "progress",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "pending",
+          "android": "na"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "na"
+        }
+      }
+    },
+    {
+      "name": "Czechia Drone A2",
+      "mission": "신규 시험앱",
+      "platforms": [
+        "ios"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "na"
+        },
+        "review": {
+          "ios": "rejected",
+          "android": "na"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "pending",
+          "android": "na"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "na"
+        }
+      }
+    },
+    {
+      "name": "PBA Business Analysis",
+      "mission": "신규 시험앱",
+      "platforms": [
+        "ios"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "na"
+        },
+        "review": {
+          "ios": "rejected",
+          "android": "na"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "pending",
+          "android": "na"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "na"
+        }
+      }
+    },
+    {
+      "name": "Prépa Coordonnateur SPS",
+      "mission": "신규 시험앱",
+      "platforms": [
+        "ios"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "na"
+        },
+        "review": {
+          "ios": "rejected",
+          "android": "na"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "pending",
+          "android": "na"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "na"
+        }
+      }
+    },
+    {
+      "name": "OCN Digital Skills Level 1",
+      "mission": "신규 시험앱",
+      "platforms": [
+        "ios"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "na"
+        },
+        "review": {
+          "ios": "rejected",
+          "android": "na"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "pending",
+          "android": "na"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "na"
+        }
+      }
+    },
+    {
+      "name": "Drawly",
+      "mission": "Drawly/Joyo",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "released"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "progress",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      }
+    },
+    {
+      "name": "Joyo 일본어 상용한자 2136",
+      "mission": "Drawly/Joyo",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "released",
+          "android": "released"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "progress",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      }
+    },
+    {
+      "name": "반도체 앱",
+      "mission": "반도체 앱",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "complete",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      }
+    },
+    {
+      "name": "단어장 플랫폼",
+      "mission": "단어장 플랫폼",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      }
+    },
+    {
+      "name": "유료 Pro 파일럿 (이름 미확인)",
+      "mission": "유료 Pro 파일럿",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "checkedAt": "2026-10-11T11:50:00Z",
+      "stageChangedAt": null,
+      "initial": {
+        "planning": "progress",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "pending",
+            "hostTest": "pending",
+            "deviceTest": "pending",
+            "signedBuild": "pending"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "pending",
+          "android": "pending"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      },
+      "update": {
+        "planning": "unknown",
+        "acquisition": "unknown",
+        "validation": "unknown",
+        "development": {
+          "shared": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "ios": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          },
+          "android": {
+            "implementation": "unknown",
+            "hostTest": "unknown",
+            "deviceTest": "unknown",
+            "signedBuild": "unknown"
+          }
+        },
+        "submission": {
+          "ios": "unknown",
+          "android": "unknown"
+        },
+        "review": {
+          "ios": "unknown",
+          "android": "unknown"
+        }
+      }
+    }
+  ]
+}
