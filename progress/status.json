@@ -8,8 +8,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T15:53:16Z",
-      "stageChangedAt": "2026-10-11T13:02:41Z",
+      "checkedAt": "2026-10-11T22:47:00Z",
+      "stageChangedAt": "2026-10-11T22:47:00Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -72,7 +72,7 @@
           "android": "submitted"
         },
         "review": {
-          "ios": "pending",
+          "ios": "released",
           "android": "released"
         }
       }
@@ -84,8 +84,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T15:53:16Z",
-      "stageChangedAt": "2026-10-11T12:23:00Z",
+      "checkedAt": "2026-10-11T22:47:00Z",
+      "stageChangedAt": "2026-10-11T22:47:00Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -148,7 +148,7 @@
           "android": "pending"
         },
         "review": {
-          "ios": "pending",
+          "ios": "released",
           "android": "unknown"
         }
       }
