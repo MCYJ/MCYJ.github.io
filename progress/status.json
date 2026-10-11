@@ -689,7 +689,7 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T16:58:47Z",
+      "checkedAt": "2026-10-11T18:05:30Z",
       "stageChangedAt": "2026-10-11T16:37:24Z",
       "initial": {
         "planning": "unknown",
@@ -765,8 +765,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T16:58:47Z",
-      "stageChangedAt": "2026-10-11T15:22:19Z",
+      "checkedAt": "2026-10-11T18:05:30Z",
+      "stageChangedAt": "2026-10-11T17:44:52Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -820,7 +820,7 @@
           "android": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "pending",
+            "deviceTest": "progress",
             "signedBuild": "unknown"
           }
         },
@@ -841,8 +841,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T16:58:47Z",
-      "stageChangedAt": "2026-10-11T14:45:34Z",
+      "checkedAt": "2026-10-11T18:05:30Z",
+      "stageChangedAt": "2026-10-11T17:50:03Z",
       "initial": {
         "planning": "progress",
         "acquisition": "unknown",
@@ -863,7 +863,7 @@
           "android": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "progress",
+            "deviceTest": "blocked",
             "signedBuild": "unknown"
           }
         },
