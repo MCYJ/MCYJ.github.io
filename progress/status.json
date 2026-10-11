@@ -689,8 +689,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-10-11T14:59:40Z",
+      "stageChangedAt": "2026-10-11T14:37:57Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -730,7 +730,7 @@
         "validation": "unknown",
         "development": {
           "shared": {
-            "implementation": "unknown",
+            "implementation": "progress",
             "hostTest": "complete",
             "deviceTest": "unknown",
             "signedBuild": "unknown"
@@ -738,13 +738,13 @@
           "ios": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "unknown",
+            "deviceTest": "pending",
             "signedBuild": "unknown"
           },
           "android": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "unknown",
+            "deviceTest": "pending",
             "signedBuild": "unknown"
           }
         },
@@ -765,8 +765,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-10-11T14:59:40Z",
+      "stageChangedAt": "2026-10-11T14:53:55Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -806,21 +806,21 @@
         "validation": "unknown",
         "development": {
           "shared": {
-            "implementation": "unknown",
-            "hostTest": "unknown",
+            "implementation": "progress",
+            "hostTest": "complete",
             "deviceTest": "unknown",
             "signedBuild": "unknown"
           },
           "ios": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "unknown",
+            "deviceTest": "pending",
             "signedBuild": "unknown"
           },
           "android": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "unknown",
+            "deviceTest": "blocked",
             "signedBuild": "unknown"
           }
         },
@@ -841,8 +841,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T12:13:00Z",
-      "stageChangedAt": "2026-10-11T12:13:00Z",
+      "checkedAt": "2026-10-11T14:45:41Z",
+      "stageChangedAt": "2026-10-11T14:45:34Z",
       "initial": {
         "planning": "progress",
         "acquisition": "unknown",
@@ -863,7 +863,7 @@
           "android": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "unknown",
+            "deviceTest": "progress",
             "signedBuild": "unknown"
           }
         },
