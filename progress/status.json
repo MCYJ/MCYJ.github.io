@@ -835,13 +835,13 @@
       }
     },
     {
-      "name": "유료 Pro 파일럿 (이름 미확인)",
+      "name": "전기기사 Pro",
       "mission": "유료 Pro 파일럿",
       "platforms": [
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-11T18:05:30Z",
+      "checkedAt": "2026-10-12T02:58:44Z",
       "stageChangedAt": "2026-10-11T17:50:03Z",
       "initial": {
         "planning": "progress",
