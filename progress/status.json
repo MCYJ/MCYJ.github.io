@@ -841,8 +841,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-12T02:58:44Z",
-      "stageChangedAt": "2026-10-11T17:50:03Z",
+      "checkedAt": "2026-10-12T04:03:14Z",
+      "stageChangedAt": "2026-10-12T04:03:14Z",
       "initial": {
         "planning": "progress",
         "acquisition": "unknown",
@@ -863,7 +863,7 @@
           "android": {
             "implementation": "unknown",
             "hostTest": "unknown",
-            "deviceTest": "blocked",
+            "deviceTest": "pending",
             "signedBuild": "unknown"
           }
         },
