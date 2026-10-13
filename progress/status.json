@@ -841,8 +841,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-12T17:01:15Z",
-      "stageChangedAt": "2026-10-12T17:01:15Z",
+      "checkedAt": "2026-10-13T14:01:40Z",
+      "stageChangedAt": "2026-10-13T14:01:40Z",
       "initial": {
         "planning": "progress",
         "acquisition": "progress",
@@ -858,13 +858,13 @@
             "implementation": "progress",
             "hostTest": "unknown",
             "deviceTest": "unknown",
-            "signedBuild": "complete"
+            "signedBuild": "progress"
           },
           "android": {
             "implementation": "progress",
             "hostTest": "unknown",
             "deviceTest": "progress",
-            "signedBuild": "complete"
+            "signedBuild": "progress"
           }
         },
         "submission": {
