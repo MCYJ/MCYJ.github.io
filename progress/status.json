@@ -841,8 +841,8 @@
         "ios",
         "android"
       ],
-      "checkedAt": "2026-10-13T15:05:01Z",
-      "stageChangedAt": "2026-10-13T15:05:01Z",
+      "checkedAt": "2026-10-22T10:08:00Z",
+      "stageChangedAt": "2026-10-22T10:08:00Z",
       "initial": {
         "planning": "progress",
         "acquisition": "progress",
@@ -869,11 +869,11 @@
         },
         "submission": {
           "ios": "pending",
-          "android": "pending"
+          "android": "submitted"
         },
         "review": {
           "ios": "unknown",
-          "android": "unknown"
+          "android": "reviewing"
         }
       },
       "update": {
