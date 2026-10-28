@@ -309,8 +309,8 @@
       "platforms": [
         "ios"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-10-28T10:37:51Z",
+      "stageChangedAt": "2026-10-28T10:37:51Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -369,11 +369,11 @@
           }
         },
         "submission": {
-          "ios": "pending",
+          "ios": "submitted",
           "android": "na"
         },
         "review": {
-          "ios": "unknown",
+          "ios": "pending",
           "android": "na"
         }
       }
@@ -384,8 +384,8 @@
       "platforms": [
         "ios"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-10-28T10:37:51Z",
+      "stageChangedAt": "2026-10-28T10:37:51Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -444,11 +444,11 @@
           }
         },
         "submission": {
-          "ios": "pending",
+          "ios": "submitted",
           "android": "na"
         },
         "review": {
-          "ios": "unknown",
+          "ios": "pending",
           "android": "na"
         }
       }
@@ -459,8 +459,8 @@
       "platforms": [
         "ios"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-10-28T10:37:51Z",
+      "stageChangedAt": "2026-10-28T10:37:51Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -519,11 +519,11 @@
           }
         },
         "submission": {
-          "ios": "pending",
+          "ios": "submitted",
           "android": "na"
         },
         "review": {
-          "ios": "unknown",
+          "ios": "pending",
           "android": "na"
         }
       }
