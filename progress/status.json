@@ -384,8 +384,8 @@
       "platforms": [
         "ios"
       ],
-      "checkedAt": "2026-10-11T11:50:00Z",
-      "stageChangedAt": null,
+      "checkedAt": "2026-11-22T19:58:41Z",
+      "stageChangedAt": "2026-11-22T19:15:24Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -411,11 +411,11 @@
           }
         },
         "submission": {
-          "ios": "unknown",
+          "ios": "submitted",
           "android": "na"
         },
         "review": {
-          "ios": "rejected",
+          "ios": "approved",
           "android": "na"
         }
       },
