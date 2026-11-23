@@ -1,0 +1,7 @@
+:root{color-scheme:dark;font:100% system-ui,sans-serif;background:#102528;color:#f0f8f6}
+body{margin:0}
+main{max-width:39rem;margin:auto;padding:clamp(2rem,9vw,6rem) 1.5rem}
+h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.1;margin:0 0 1.5rem}
+p{line-height:1.7;word-break:keep-all;overflow-wrap:anywhere}
+a{color:#83ddd2;text-underline-offset:0.2em}
+a:focus-visible{outline:2px solid #83ddd2;outline-offset:4px}
