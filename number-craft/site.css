@@ -1,0 +1,7 @@
+html { color-scheme: light; background: #f5f0e7; color: #20362d; font: 18px/1.65 system-ui, sans-serif; }
+body { margin: 0; }
+main { max-width: 38rem; margin: auto; padding: clamp(1.25rem, 6vw, 4rem); word-break: keep-all; overflow-wrap: anywhere; }
+h1 { font-size: clamp(1.7rem, 6vw, 2.5rem); line-height: 1.2; }
+a { color: #226546; text-underline-offset: .2em; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1rem; border-top: 1px solid #a5b6a2; padding-block-start: 1rem; }
+.contact { display: block; margin-block: 1.5rem; }
