@@ -1,0 +1,17 @@
+:root {
+  color-scheme: dark;
+  background: #171c25;
+  color: #edf3fa;
+  font: 16px/1.6 system-ui, sans-serif;
+}
+body { max-width: 72rem; margin: auto; padding: 0 clamp(1rem, 5vw, 4rem); }
+header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem 2rem; padding: 1.5rem 0; border-bottom: 1px solid #455264; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+a { color: #78dfb9; text-underline-offset: .2em; }
+.brand, [aria-current] { font-weight: 700; }
+main { margin: clamp(2.5rem, 9vw, 7rem) 0 5rem; }
+h1 { max-width: 22ch; margin: 0; font-size: clamp(2rem, 6vw, 4.75rem); line-height: 1.12; letter-spacing: -.04em; word-break: keep-all; overflow-wrap: anywhere; }
+p { max-width: 62ch; color: #c2cdd9; word-break: keep-all; overflow-wrap: anywhere; }
+figure { max-width: 34rem; margin: 2rem 0 0; padding: 1rem; background: #242c39; border: 1px solid #455264; }
+img { display: block; width: 100%; height: auto; image-rendering: pixelated; }
+footer { border-top: 1px solid #455264; padding: 1.25rem 0; color: #a5b4c4; }
