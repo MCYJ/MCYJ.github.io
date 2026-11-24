@@ -1,0 +1,50 @@
+:root {
+  color-scheme: light;
+  --ink: #392818;
+  --muted: #665543;
+  --paper: #faf6eb;
+  --line: #d8c9b5;
+  --accent: #804718;
+  font: 16px/1.65 system-ui, -apple-system, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: var(--paper); word-break: keep-all; overflow-wrap: anywhere; }
+header { border-bottom: 1px solid var(--line); }
+header > div, main, footer { width: min(70rem, 100% - 2rem); margin-inline: auto; }
+header > div { padding-block: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem 1.5rem; }
+a { color: var(--accent); text-underline-offset: .22em; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.brand { display: inline-flex; align-items: center; gap: .5rem; color: var(--ink); font-weight: 700; text-decoration: none; }
+.brand img { border-radius: 7px; }
+nav { display: flex; gap: .45rem 1.25rem; flex-wrap: wrap; }
+nav a { color: var(--muted); }
+nav a[aria-current] { color: var(--ink); font-weight: 700; }
+main { padding-block: clamp(2.5rem, 6vw, 6rem); }
+.intro { max-width: 52rem; }
+.intro.with-preview { display: grid; grid-template-columns: 1fr .9fr; align-items: center; gap: clamp(2rem, 6vw, 6rem); max-width: none; }
+h1 { margin: 0; line-height: 1.12; font-size: clamp(2.3rem, 4.5vw, 4.25rem); letter-spacing: -.04em; }
+h2 { margin: 0 0 .4rem; font-size: 1.3rem; line-height: 1.35; }
+p { color: var(--muted); margin-block: .25rem 1rem; }
+.intro p { font-size: 1.15rem; margin-block-start: 1rem; max-width: 42ch; }
+figure { margin: 0; }
+.sheet {
+  aspect-ratio: 2 / 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  padding: 4% 20% 12% 3%;
+  gap: 3px;
+  border: 1px solid #a26d3d;
+  background: #ead0a9;
+}
+.sheet span { background: #fff1d7; border: 1px solid #b47d48; }
+figcaption { margin-top: .35rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.details { max-width: 44rem; margin-top: 2.7rem; }
+section { padding: 1rem 0; border-top: 1px solid var(--line); }
+pre { padding: .65rem .85rem; max-width: 100%; overflow-x: auto; border: 1px solid var(--line); background: #fffaf1; }
+footer { border-top: 1px solid var(--line); padding-block: 1.1rem 2rem; color: var(--muted); }
+@media (max-width: 42rem) {
+  .intro.with-preview { grid-template-columns: 1fr; }
+  figure { width: min(100%, 32rem); }
+}
