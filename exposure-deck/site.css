@@ -1,0 +1,10 @@
+:root { color-scheme: dark; background: #141616; color: #f2eee3; font: 1rem/1.65 system-ui, sans-serif; }
+body { margin: 0; word-break: keep-all; overflow-wrap: anywhere; }
+header, main, footer { width: min(100% - 3rem, 43rem); margin-inline: auto; }
+nav { display: flex; flex-wrap: wrap; gap: .7rem 1.2rem; padding-block: 1.3rem; border-bottom: 1px solid #414641; }
+main { margin-block: clamp(2.4rem, 9vw, 5rem); }
+h1 { margin: 0 0 1.2rem; color: #f8c461; font-size: clamp(2.2rem, 7vw, 3.5rem); line-height: 1.15; }
+h2 { font-size: 1.25rem; }
+p { max-width: 38rem; }
+a { color: #f8c461; text-underline-offset: .2em; }
+footer { padding-block: 1.5rem; color: #b4b7ad; border-top: 1px solid #414641; }
