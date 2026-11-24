@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  color: #1f2631;
+  background: #f7f4ed;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #234abc; }
+a:focus-visible { outline: 3px solid #234abc; outline-offset: 4px; }
+.bar, main, footer { width: min(70rem, calc(100% - 3rem)); margin-inline: auto; }
+.bar { display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: space-between; align-items: center; padding-block: 1.2rem; border-bottom: 1px solid #d6d0c4; }
+.brand, nav a { text-decoration: none; }
+.brand { color: inherit; font-weight: 750; }
+nav { display: flex; gap: .55rem 1.1rem; flex-wrap: wrap; }
+nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: .3rem; }
+main { padding-block: clamp(3rem, 8vw, 6rem); }
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(17rem, 26rem); align-items: center; gap: clamp(2.5rem, 8vw, 6rem); }
+h1, h2, p { word-break: keep-all; overflow-wrap: anywhere; }
+h1 { font-size: clamp(2.35rem, 6.7vw, 5.1rem); font-weight: 750; line-height: 1.06; letter-spacing: -.04em; margin: 0 0 1.2rem; }
+p { line-height: 1.62; max-width: 42rem; }
+.hero p { font-size: 1.125rem; }
+.hero .status { font-size: .94rem; color: #555e6c; }
+figure { margin: 0; padding: 1.05rem; background: #e9e3d7; border: 1px solid #c8c0b1; }
+figcaption { margin-bottom: .75rem; color: #384050; font-size: .88rem; }
+.sheet { background: #fff; display: grid; grid-template-columns: repeat(2, 1fr); gap: .45rem; padding: .75rem; border: 1px solid #c8c0b1; }
+.sheet img { display: block; width: 100%; height: auto; border: 1px dashed #b5aa98; }
+.prose { max-width: 46rem; }
+.prose h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 2.5rem; }
+.prose section { margin: 1.65rem 0; }
+.prose h2 { font-size: 1.18rem; margin-bottom: .3rem; }
+.prose p { margin-top: .3rem; }
+footer { border-top: 1px solid #d6d0c4; padding-block: 1.4rem; color: #555e6c; }
+@media (max-width: 47rem) {
+  .hero { grid-template-columns: 1fr; }
+  figure { max-width: 25rem; }
+}
