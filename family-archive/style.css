@@ -1,0 +1,17 @@
+:root { color-scheme: light; background: #f2efe7; color: #232e48; font: 16px/1.65 system-ui, sans-serif; }
+body { max-width: 68rem; margin: auto; padding: 0 clamp(1rem, 6vw, 4rem); }
+header, nav { display: flex; flex-wrap: wrap; gap: .5rem 1.35rem; }
+header { justify-content: space-between; padding: 1.35rem 0; border-bottom: 1px solid #c9c5ba; }
+a { color: #323f63; text-underline-offset: .22em; }
+.brand, [aria-current] { font-weight: 700; }
+main { margin: clamp(2.5rem, 8vw, 6rem) 0; min-height: 19rem; }
+.overview { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 2rem; align-items: center; }
+h1 { max-width: 16ch; margin: 0; font: 600 clamp(2rem, 6.5vw, 4.6rem)/1.1 Georgia, serif; letter-spacing: -.04em; }
+p { max-width: 55ch; color: #3f4a63; }
+h1, p { word-break: keep-all; overflow-wrap: anywhere; }
+img { width: 100%; max-width: 21rem; height: auto; justify-self: end; }
+footer { border-top: 1px solid #c9c5ba; padding: 1rem 0; }
+@media (max-width: 43rem) {
+  .overview { grid-template-columns: 1fr; }
+  img { justify-self: start; max-width: 13rem; }
+}
