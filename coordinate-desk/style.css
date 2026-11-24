@@ -1,0 +1,5 @@
+body { color:#182a40; background:#f4f1e9; margin:0; font:1.05rem/1.7 system-ui,sans-serif; word-break:keep-all; }
+header,main {max-width:42rem;margin:auto;padding:1.4rem;}
+nav {display:flex;flex-wrap:wrap;gap:1.2rem;border-bottom:1px solid #c9cdcc;padding-bottom:1rem;}
+h1 {font-size:clamp(2.3rem,7vw,3.8rem);line-height:1.1;margin-top:2rem;}
+a {color:#235a8a;text-underline-offset:.2em;}
