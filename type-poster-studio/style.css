@@ -1,0 +1,26 @@
+:root {
+  background: #f7efe4;
+  color: #24211f;
+  font-family: system-ui, sans-serif;
+  line-height: 1.55;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+body { max-width: 69rem; margin: auto; padding-inline: clamp(1rem, 4vw, 3rem); }
+header { border-bottom: 2px solid #24211f; padding-block: 1.1rem; }
+header, nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: .65rem 1.4rem; }
+header { justify-content: space-between; }
+a { color: #873324; text-underline-offset: .23em; }
+.brand, a[aria-current] { font-weight: 750; }
+main { margin-block: clamp(2rem, 6vw, 5rem); }
+h1 { font-family: Georgia, serif; font-size: clamp(2.35rem, 7vw, 5.8rem); line-height: .99; letter-spacing: -.034em; margin: 0 0 1.4rem; max-width: 12ch; }
+h2 { font-size: 1.1rem; margin: 1.6rem 0 .3rem; }
+p { max-width: 56ch; margin: 0 0 1rem; }
+footer { border-top: 1px solid #b6a99b; padding-block: 1.2rem; }
+.edition { display: grid; grid-template-columns: 1fr minmax(0, .97fr); align-items: start; gap: clamp(1.2rem, 5vw, 5rem); }
+.edition img { display: block; width: 100%; height: auto; background: #eee4d6; border: 1px solid #b6a99b; }
+@media (max-width: 680px) {
+  .edition { grid-template-columns: 1fr; }
+  .edition img { width: min(100%, 23rem); }
+}
