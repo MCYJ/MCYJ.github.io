@@ -1,0 +1,34 @@
+:root {
+  color: #24354b;
+  background: #f4eee2;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+body { max-width: 54rem; margin: auto; padding: 0 1.25rem; }
+header, footer { padding: 1rem 0; border-block-end: 1px solid #cfc2ae; }
+header, nav { display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; align-items: baseline; }
+header { justify-content: space-between; }
+header > a { font-weight: 750; }
+a { color: #304863; text-underline-offset: 0.2em; }
+a[aria-current] { font-weight: 700; }
+main { margin-block: 2.5rem; }
+h1 { font-family: Georgia, serif; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.15; }
+h2 { font-size: 1.2rem; margin: 1.75rem 0 0.25rem; }
+p { margin: 0 0 1rem; max-width: 65ch; }
+footer { border-block-start: 1px solid #cfc2ae; border-block-end: 0; }
+.quilt {
+  max-width: 24rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.2rem;
+  padding: 0.55rem;
+  background: #304863;
+}
+.quilt i {
+  aspect-ratio: 1;
+  background: linear-gradient(135deg, #e5d5b8 50%, #a94f3a 50%);
+}
+.quilt i:nth-child(3n + 1) { background: linear-gradient(45deg, #e5d5b8 50%, #43695b 50%); }
+.quilt i:nth-child(3n + 2) { background: linear-gradient(225deg, #e5d5b8 50%, #654863 50%); }
