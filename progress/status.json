@@ -384,8 +384,8 @@
       "platforms": [
         "ios"
       ],
-      "checkedAt": "2026-11-22T19:58:41Z",
-      "stageChangedAt": "2026-11-22T19:15:24Z",
+      "checkedAt": "2026-11-25T14:02:24Z",
+      "stageChangedAt": "2026-11-23T08:00:00Z",
       "initial": {
         "planning": "unknown",
         "acquisition": "unknown",
@@ -415,7 +415,7 @@
           "android": "na"
         },
         "review": {
-          "ios": "approved",
+          "ios": "released",
           "android": "na"
         }
       },
