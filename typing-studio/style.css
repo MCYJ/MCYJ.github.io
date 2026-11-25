@@ -1,0 +1,12 @@
+:root {
+  color: #172442;
+  background: #f8f9fd;
+  font: 1.05rem/1.65 system-ui, sans-serif;
+}
+body { margin: 0; }
+header, main { max-width: 42rem; margin: auto; padding-inline: 1.25rem; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; padding-block: 1.2rem; border-bottom: 1px solid #d3dbef; }
+h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.16; margin-top: 2rem; word-break: keep-all; }
+p { word-break: keep-all; overflow-wrap: break-word; }
+a { color: #254997; text-underline-offset: .2em; }
+nav a[aria-current="page"] { font-weight: 700; }
